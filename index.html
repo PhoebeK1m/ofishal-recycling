@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recycle</title>
+    <script src="https://kit.fontawesome.com/697ba4ecb9.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Special+Elite&display=swap" rel="stylesheet"></head>
+<body>
+    <!-- Recycling -->
+    <div class="main">
+        <!-- Navigation Bar Section-->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="/" id="logo__img">
+                    <img src="images/re.png" alt="logo" id="logo">
+                </a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span> <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="/" class="navbar__links active">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/tech.html" class="navbar__links">Recycle</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/learn.html" class="navbar__links">More Info</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main__image"></div>
+        <div class="main__text">
+            <div class = "type-container">
+                <h1 id = "typewrite">re</h1>
+                <h1 id = "newText"></h1>
+                <span class = "cursor"></span>
+            </div>
+            <a href="#services" class="btn" id="home-btn">start now</a>
+        </div>
+    </div>
+
+    <!-- How To -->
+    <div class="services" id="services">
+        <h1>✨ recycling for dummies ✨</h1>
+        <div class="services__container">
+            <div class="services__card">
+                <h2>Need help?</h2>
+                <p>here is a bot that can help you</p>
+                <div class="btn-container">
+                    <a href="/tech.html" class="btn">start now</a>
+                </div>
+            </div>
+            <div class="services__card">
+                <h2>Want to learn?</h2>
+                <p>here are some resources that can teach you</p>
+                <div class="btn-container">
+                    <a href="/learn.html" class="btn">learn how</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <p>Naturally is a student led organization striving to promote environmental sustainability.</p>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Contact Us</h2>
+                    <a href="mailto: tams.naturally@gmail.com">tams.naturally@gmail.com</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Follow Us</h2>
+                    <div class="social__icons">
+                        <a href="https://www.facebook.com/groups/257910823542986" class="social__icon--link" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/tams.naturally/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@naturallytams2472" class="social__icon--link" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
