@@ -1,5 +1,5 @@
 # ofishal-recycling
-Link to website: [ofishal-recycling.netlify.app](ofishal-recycling.netlify.app)
+first ever website :)
 
 ![Model](https://github.com/fourbeans/ofishal-recycling/blob/4ead3428d344c93c1b2a4252c0606d5fd6614497/images/background.png)
 ## Inspiration
