@@ -1,5 +1,5 @@
-# ofishal-recycling
-first ever website :)
+# ofishal-recycling (now deprecated)
+first ever website :) [https://youtu.be/EIYMyb4ZbUU?si=virwmMXjSBXqQlo-](https://youtu.be/EIYMyb4ZbUU?si=virwmMXjSBXqQlo-)
 
 ![Model](https://github.com/fourbeans/ofishal-recycling/blob/4ead3428d344c93c1b2a4252c0606d5fd6614497/images/background.png)
 ## Inspiration
